@@ -2,7 +2,7 @@
 ## Documentação da API
 
 
-## Trabalho acadêmico de Lógica de programação e algoritmos, onde foram desenvolvidos softwares para cada resolução de problemas:
+## Trabalho acadêmico de Lógica de programação e algoritmos, onde foram desenvolvidos softwares em Python para cada resolução de problemas:
 | Questão   | Descrição do Software |
 | :---------- | :--------- | 
 | 1| `Descontos Loja atacado` |
