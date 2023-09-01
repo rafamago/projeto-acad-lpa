@@ -1,6 +1,8 @@
 # projeto-acad-lpa
 ## Documentação da API
 
+## Tecnologia usada no projeto
+![Python](https://img.shields.io/badge/Python-black?style=for-the-badge&logo=python&logoColor=00ffee)
 
 ## Trabalho acadêmico de Lógica de programação e algoritmos, onde foram desenvolvidos softwares em Python para cada resolução de problemas:
 | Questão   | Descrição do Software |
