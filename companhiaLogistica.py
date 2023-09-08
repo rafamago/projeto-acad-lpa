@@ -1,6 +1,4 @@
-#chamei as funções de acordo com cada exigencia
-#coloquei tratamento de erro com o try e except
-#coloquei cada condição de acordo com o desejado
+#chamei as funções de acordo com cada exigência, cada condição de acordo com o desejado e coloquei tratamento de erro com o try e except 
 def dimensoesObjeto():
     while True:
         try:
