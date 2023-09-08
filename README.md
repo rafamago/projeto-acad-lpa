@@ -5,7 +5,7 @@
 ![Python](https://img.shields.io/badge/Python-black?style=for-the-badge&logo=python&logoColor=00ffee)
 
 ## Trabalho acadêmico de Lógica de programação e algoritmos, onde foram desenvolvidos softwares em Python para cada resolução de problemas:
-| Questão   | Descrição do Software |
+|Quantidade| Descrição do Software |
 | :---------- | :--------- | 
 | 1| `Descontos Loja atacado` |
 | 2| `Interface gráfica de pedidos para uma lanchonete` |
