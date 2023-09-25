@@ -1,5 +1,5 @@
-#criei uma lista para as peças
 listaPecas = []
+
 def cadastrarPeca (codigo):
     print('Você selecionou a opção de Cadastrar peças')
     print(f'O código da peça será: {codigo}')
@@ -8,30 +8,28 @@ def cadastrarPeca (codigo):
     valorPeca = float(input('Digite o valor da peça:'))
     dicionarioPeca = {'codigo' : codigo, 'peca' : peca, 'fabricante': fabricante}
     listaPecas.append(dicionarioPeca.copy())
-#fiz a função para o cadastro de peças de acordo com o solicitado
-#adicionei no dicionario para armazenar
 def consultarPeca():
-    while True:
-        try:
-            print('Você selecionou a opção de Consulta de peças')
-            print('Digite a opção desejada:\n 1- Consultar todas as peças\n 2- Consultar peças por código\n 3- Consultar peças por fabricante\n 4- Retornar')
-            consulta = int(input())
-            if consulta == 1:
-                print('-' * 15)
-                for pecas in listaPecas:
+ while True:
+    try:
+        print('Você selecionou a opção de Consulta de peças')
+        print('Digite a opção desejada:\n 1- Consultar todas as peças\n 2- Consultar peças por código\n 3- Consultar peças por fabricante\n 4- Retornar')
+        consulta = int(input())
+        if consulta == 1:
+            print('-' * 15)
+            for pecas in listaPecas:
+                for key, value in pecas.items():
+                    print('{} : {}'.format(key,value))
+                    print('-' * 15)
+        if consulta == 2:
+            print('Consulta de peças por código')
+            escolha = int(input('Digite o código da peça desejada: '))
+            print('-' * 15)
+            for pecas in listaPecas:
+                if(pecas['codigo'] == escolha):
                     for key, value in pecas.items():
                         print('{} : {}'.format(key,value))
                         print('-' * 15)
-            if consulta == 2:
-                print('Consulta de peças por código')
-                escolha = int(input('Digite o código da peça desejada: '))
-                print('-' * 15)
-                for pecas in listaPecas:
-                    if(pecas['codigo'] == escolha):
-                        for key, value in pecas.items():
-                            print('{} : {}'.format(key,value))
-                            print('-' * 15)
-            if consulta == 3:
+        if consulta == 3:
                 print('Consulta pelo nome do fabricante')
                 nomeF = input('Digite o nome do fabricante desejado: ')
                 print('-' * 15)
@@ -40,23 +38,23 @@ def consultarPeca():
                         for key, value in pecas.items():
                             print('{} : {}'.format(key,value))
                             print('-' * 15)
-            if consulta == 4:
-                break
-            else:
-                print('Por favor digite valores válidos')
-                continue
-        except:
+        if consulta == 4:
+            break
+        else:
+            print('Por favor digite valores válidos')
+            continue
+    except:
             print('O programa só irá funcionar com valores válidos')
 def removerPeca():
-    print('Você selecionou a opção de Remoção de Peças')
-    cod = int(input('Digite o código da peça a ser removida: '))
-    for pecas in listaPecas:
-        if(pecas['codigo'] == cod):
-            listaPecas.remove(pecas)
+ print('Você selecionou a opção de Remoção de Peças')
+ cod = int(input('Digite o código da peça a ser removida: '))
+ for pecas in listaPecas:
+    if(pecas['codigo'] == cod):
+        listaPecas.remove(pecas)
     else: print('Você removeu o código.')
 #chamei a função para remover o cadastro do codigo do armazenamento
 #abaixo coloquei o programa principal para rodar
-print("Bem vindo ao Controle de Estoque da Bicicletaria Sob Rodas!")
+print("Bem vindo ao Controle de Estoque da Bicicletaria de Rafaela Maria Gomes da Costa")
 armazenado = 0
 import random
 while True:
@@ -78,7 +76,6 @@ while True:
             print('Programa encerrado, tenha um bom dia')
             break
         else:
-             print('Digite valores válidos por gentileza')
+            print('Digite valores válidos por gentileza')
     except:
         print('O programa só irá funcionar com valores válidos')
-#usei o try e except para tratamento de erro 
