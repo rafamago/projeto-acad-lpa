@@ -33,7 +33,5 @@ https://github.com/rafamago/projeto-acad-lpa/assets/137111135/1e32159e-ae33-477f
  ```Foi desenvolvido um estoque para uma bicicletaria onde o usuário pode consultar as peças por fabricante, pelo código das peças ou visualizar todas, cadastrar novas peças, ver as peças disponíveis e remover alguma peça, também fiz o tratamento de erro com try e except.  ```
 
 
-https://github.com/rafamago/projeto-acad-lpa/assets/137111135/e7e1c782-0b42-44d0-89ce-a857b65e4587
-
 
  
