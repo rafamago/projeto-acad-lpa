@@ -54,7 +54,7 @@ def removerPeca():
     else: print('Você removeu o código.')
 #chamei a função para remover o cadastro do codigo do armazenamento
 #abaixo coloquei o programa principal para rodar
-print("Bem vindo ao Controle de Estoque da Bicicletaria de Rafaela Maria Gomes da Costa")
+print("Bem vindo ao Controle de Estoque da Bicicletaria ")
 armazenado = 0
 import random
 while True:
